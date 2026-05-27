@@ -1,0 +1,16 @@
+# API Keys — never commit
+Config.xcconfig
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.pbxuser
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

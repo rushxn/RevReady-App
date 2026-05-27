@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1000001 /* RevReadyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001 /* RevReadyApp.swift */; };
+		B1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000002 /* ContentView.swift */; };
+		B1000003 /* DiagnosticModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000003 /* DiagnosticModels.swift */; };
+		B1000004 /* AnthropicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000004 /* AnthropicService.swift */; };
+		B1000005 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000005 /* DashboardView.swift */; };
+		B1000006 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000006 /* CameraView.swift */; };
+		B1000007 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000007 /* LoadingView.swift */; };
+		B1000008 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000008 /* ResultView.swift */; };
+		B1000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2000009 /* Assets.xcassets */; };
+		B1000010 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000010 /* SplashView.swift */; };
+		B1000011 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000011 /* HistoryView.swift */; };
+		B1000012 /* SymptomDiagnoserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000012 /* SymptomDiagnoserView.swift */; };
+		B1000013 /* SpecsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000013 /* SpecsView.swift */; };
+		B1000014 /* MaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000014 /* MaintenanceView.swift */; };
+		B1000015 /* PrePurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000015 /* PrePurchaseView.swift */; };
+		B1000016 /* RepairGuidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000016 /* RepairGuidesView.swift */; };
+		B1000017 /* JetCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000017 /* JetCalcView.swift */; };
+		B1000018 /* SensorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000018 /* SensorsView.swift */; };
+		B1000019 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000019 /* UserProfile.swift */; };
+		B1000020 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000020 /* OnboardingView.swift */; };
+		B1000021 /* OBD2Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000021 /* OBD2Manager.swift */; };
+		B1000022 /* FaultAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000022 /* FaultAnalyzer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4231AE1E2FC575B90040F5FE /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		4231AE1F2FC576A70040F5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B2000001 /* RevReadyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevReadyApp.swift; sourceTree = "<group>"; };
+		B2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2000003 /* DiagnosticModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticModels.swift; sourceTree = "<group>"; };
+		B2000004 /* AnthropicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnthropicService.swift; sourceTree = "<group>"; };
+		B2000005 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B2000006 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B2000007 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B2000008 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		B2000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2000010 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B2000011 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B2000012 /* SymptomDiagnoserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomDiagnoserView.swift; sourceTree = "<group>"; };
+		B2000013 /* SpecsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecsView.swift; sourceTree = "<group>"; };
+		B2000014 /* MaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceView.swift; sourceTree = "<group>"; };
+		B2000015 /* PrePurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrePurchaseView.swift; sourceTree = "<group>"; };
+		B2000016 /* RepairGuidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairGuidesView.swift; sourceTree = "<group>"; };
+		B2000017 /* JetCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetCalcView.swift; sourceTree = "<group>"; };
+		B2000018 /* SensorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsView.swift; sourceTree = "<group>"; };
+		B2000019 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		B2000020 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B2000021 /* OBD2Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD2Manager.swift; sourceTree = "<group>"; };
+		B2000022 /* FaultAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaultAnalyzer.swift; sourceTree = "<group>"; };
+		B3000001 /* RevReady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevReady.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5000001 = {
+			isa = PBXGroup;
+			children = (
+				B5000002 /* RevReady */,
+				B5000003 /* Products */,
+				4231AE1E2FC575B90040F5FE /* Config.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		B5000002 /* RevReady */ = {
+			isa = PBXGroup;
+			children = (
+				4231AE1F2FC576A70040F5FE /* Info.plist */,
+				B2000001 /* RevReadyApp.swift */,
+				B2000002 /* ContentView.swift */,
+				B2000010 /* SplashView.swift */,
+				B2000003 /* DiagnosticModels.swift */,
+				B2000004 /* AnthropicService.swift */,
+				B2000005 /* DashboardView.swift */,
+				B2000006 /* CameraView.swift */,
+				B2000007 /* LoadingView.swift */,
+				B2000008 /* ResultView.swift */,
+				B2000011 /* HistoryView.swift */,
+				B2000012 /* SymptomDiagnoserView.swift */,
+				B2000013 /* SpecsView.swift */,
+				B2000014 /* MaintenanceView.swift */,
+				B2000015 /* PrePurchaseView.swift */,
+				B2000016 /* RepairGuidesView.swift */,
+				B2000017 /* JetCalcView.swift */,
+				B2000018 /* SensorsView.swift */,
+				B2000019 /* UserProfile.swift */,
+				B2000020 /* OnboardingView.swift */,
+				B2000021 /* OBD2Manager.swift */,
+				B2000022 /* FaultAnalyzer.swift */,
+				B2000009 /* Assets.xcassets */,
+			);
+			path = RevReady;
+			sourceTree = "<group>";
+		};
+		B5000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3000001 /* RevReady.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6000001 /* RevReady */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7000001 /* Build configuration list for PBXNativeTarget "RevReady" */;
+			buildPhases = (
+				B8000001 /* Sources */,
+				B4000001 /* Frameworks */,
+				B9000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevReady;
+			productName = RevReady;
+			productReference = B3000001 /* RevReady.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B6000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B7000002 /* Build configuration list for PBXProject "RevReady" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5000001;
+			productRefGroup = B5000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6000001 /* RevReady */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000009 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000001 /* RevReadyApp.swift in Sources */,
+				B1000002 /* ContentView.swift in Sources */,
+				B1000010 /* SplashView.swift in Sources */,
+				B1000003 /* DiagnosticModels.swift in Sources */,
+				B1000004 /* AnthropicService.swift in Sources */,
+				B1000005 /* DashboardView.swift in Sources */,
+				B1000006 /* CameraView.swift in Sources */,
+				B1000007 /* LoadingView.swift in Sources */,
+				B1000008 /* ResultView.swift in Sources */,
+				B1000011 /* HistoryView.swift in Sources */,
+				B1000012 /* SymptomDiagnoserView.swift in Sources */,
+				B1000013 /* SpecsView.swift in Sources */,
+				B1000014 /* MaintenanceView.swift in Sources */,
+				B1000015 /* PrePurchaseView.swift in Sources */,
+				B1000016 /* RepairGuidesView.swift in Sources */,
+				B1000017 /* JetCalcView.swift in Sources */,
+				B1000018 /* SensorsView.swift in Sources */,
+				B1000019 /* UserProfile.swift in Sources */,
+				B1000020 /* OnboardingView.swift in Sources */,
+				B1000021 /* OBD2Manager.swift in Sources */,
+				B1000022 /* FaultAnalyzer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4231AE1E2FC575B90040F5FE /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4231AE1E2FC575B90040F5FE /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4231AE1E2FC575B90040F5FE /* Config.xcconfig */;
+			buildSettings = {
+				ANTHROPIC_API_KEY = "$(ANTHROPIC_API_KEY)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THBR7322YS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RevReady/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "RevReady uses Bluetooth to connect to your bike OBD2 adapter for live engine data.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "RevReady uses your camera to photograph your bike for AI-powered diagnostics.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "RevReady uses the microphone for engine sound diagnosis.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "RevReady accesses your photo library to select bike photos for AI diagnosis.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rushansipai.revready;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4231AE1E2FC575B90040F5FE /* Config.xcconfig */;
+			buildSettings = {
+				ANTHROPIC_API_KEY = "$(ANTHROPIC_API_KEY)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THBR7322YS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RevReady/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "RevReady uses Bluetooth to connect to your bike OBD2 adapter for live engine data.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "RevReady uses your camera to photograph your bike for AI-powered diagnostics.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "RevReady uses the microphone for engine sound diagnosis.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "RevReady accesses your photo library to select bike photos for AI diagnosis.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rushansipai.revready;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7000001 /* Build configuration list for PBXNativeTarget "RevReady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC000003 /* Debug */,
+				BC000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7000002 /* Build configuration list for PBXProject "RevReady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC000001 /* Debug */,
+				BC000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA000001 /* Project object */;
+}
